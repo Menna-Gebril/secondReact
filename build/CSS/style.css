@@ -1,0 +1,284 @@
+/* start general style */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* end general style */
+
+/* start  nav home style */
+.nav-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+.nav-home img {
+  width: 150px;
+}
+
+.nav-home .links a {
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 35px;
+  text-transform: capitalize;
+  transition: transform 1s;
+}
+.nav-home .links a:hover {
+  transform: scale(1.5);
+}
+
+.nav-home button {
+  background-color: #f47c70;
+  color: #fff;
+  font-weight: 800;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* end  nav home style */
+
+/* start header home style */
+
+.header-home {
+  height: 850px;
+  background-image: url(../imgs/download.jpg);
+  background-size: cover;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+}
+
+.header-content {
+  height: 350px;
+  width: 440px;
+  background-color: #62a890b5;
+  padding: 0 40px 55px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+
+.header-content p {
+  color: #fff;
+  font-family: monospace;
+  font-size: 40px;
+  letter-spacing: 1.7px;
+}
+
+/* end header home style */
+
+/* start school clinic style */
+
+.home-clinic {
+  margin: 45px 0;
+}
+
+.clinic-title h2 {
+  text-align: center;
+  color: #30404e;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.clinic-title hr {
+  width: 200px;
+  height: 4px;
+  background-color: #d08128;
+  box-shadow: 0 0 5px #d08128;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: none;
+}
+.clinic-description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.clinic-description .clinic-img {
+  width: 50%;
+}
+.clinic-description .clinic-img img {
+  width: 100%;
+}
+
+
+.clinic-content {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.clinic-content h3 {
+  color: #4d8d97;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+
+.clinic-content p {
+  font-family: monospace;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+
+/* end school clinic style */
+
+/* start home learning style */
+
+.home-learning {
+  height: 600px;
+  background-image:
+    url(../imgs/Path\ 62.png),
+    url(../imgs/i-love-my-job-so-much_329181-2178.png);
+  background-size: cover;
+  padding-block: 45px;
+}
+
+.home-learning h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 300;
+  padding-block: 25px;
+  text-align: center;
+}
+.home-learning .items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.home-learning .card {
+  width: calc((100% - 45px) / 4);
+  background-color: #fff;
+  padding: 25px 20px;
+  border-radius: 15px;
+}
+
+.home-learning .card img {
+  width: 100%;
+  height: 200px;
+}
+
+.home-learning .card h3 {
+  color: #488c8c;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.home-learning .card p {
+  text-align: center;
+  color: #aeadad;
+}
+
+/* end home learning style */
+
+/* start employees style */
+.employees {
+  margin: 45px 0;
+}
+
+.employees .items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.employees .items .employee {
+  width: calc((100% - 30px) / 4);
+}
+
+
+.employees .items .employee img {
+  width: 60%;
+}
+
+/* end employees style */
+
+/* start home footer style */
+
+.home-footer {
+  background-color: #0f7c65;
+  color: #fff;
+  padding-block: 45px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+.home-footer .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.home-footer .items .special-card,
+.home-footer .items .lists {
+  width: calc((100% - 30px) / 2);
+}
+.home-footer .items .special-card {
+  text-align: center;
+}
+
+
+.home-footer .items .special-card h2 {
+  margin-bottom: 15px;
+}
+
+.home-footer .items .special-card p {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.home-footer .items .lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.home-footer .items .card {
+  width: calc((100% - 30px) / 3);
+}
+
+.home-footer .items .card h3 {
+  color: #d18c7c;
+  padding-bottom: 25px;
+}
+
+.home-footer .items .card ul li {
+  padding-bottom: 20px;
+}
+
+/* end home footer style */
